@@ -131,8 +131,9 @@ img {
  /* MEDIA QUERY SEZIONE 1 */
 
  @media screen and (max-width:768px){
-    .lessons{
-        width: 100%;
+    .container{
+        width: 768px;
+        margin: 0 auto;
     }
 
     .row{
@@ -157,10 +158,10 @@ img {
  }
 
  @media screen and (max-width:480px){
-    .lessons{
-        width: 100%;
+    .container{
+        width: 480px;
+        margin: 0 auto;
     }
-
 
     h2{
         display: flex;
@@ -186,8 +187,9 @@ img {
  /* MEDIA QUERY SEZIONE 2 */
 
  @media screen and (max-width:768px){
-    .steps{
-        width: 100%;
+    .container{
+        width: 768px;
+        margin: 0 auto;
     }
 
     .steps{
@@ -198,8 +200,9 @@ img {
  }
 
  @media screen and (max-width:480px){
-    .steps{
-        width: 100%;
+    .container{
+        width: 480px;
+        margin: 0 auto;
     }
 
     .steps{
@@ -212,8 +215,9 @@ img {
  /* MEDIA QUERY SEZIONE 3 */
 
  @media screen and (max-width:768px){
-    .why-us{
-        width: 100%;
+    .container{
+        width: 768px;
+        margin: 0 auto;
     }
 
     .col .col-left , .col .col-right{
@@ -225,8 +229,9 @@ img {
  }
 
  @media screen and (max-width:480px){
-    .why-us{
-        width: 100%;
+    .container{
+        width: 480px;
+        margin: 0 auto;
     }
 
     .col .col-left , .col .col-right{
