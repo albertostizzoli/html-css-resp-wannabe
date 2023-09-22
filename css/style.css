@@ -132,7 +132,7 @@ img {
 
  @media screen and (max-width:768px){
     .container{
-        width: 768px;
+        width: 755px;
         margin: 0 auto;
     }
 
@@ -159,8 +159,11 @@ img {
 
  @media screen and (max-width:480px){
     .container{
-        width: 480px;
-        margin: 0 auto;
+        width: 470px;
+    }
+
+    .lessons{
+        width: 100%;
     }
 
     h2{
@@ -175,7 +178,6 @@ img {
     }
     .col{
         padding-top: 60px;
-        transform: scale(0.9);
     }
 
     .card{
@@ -188,7 +190,7 @@ img {
 
  @media screen and (max-width:768px){
     .container{
-        width: 768px;
+        width: 755px;
         margin: 0 auto;
     }
 
@@ -201,13 +203,17 @@ img {
 
  @media screen and (max-width:480px){
     .container{
-        width: 480px;
-        margin: 0 auto;
+        width: 470px;
+    }
+
+    .steps{
+        width: 100%;
     }
 
     .steps{
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
     }
 
  }
@@ -216,7 +222,7 @@ img {
 
  @media screen and (max-width:768px){
     .container{
-        width: 768px;
+        width: 755px;
         margin: 0 auto;
     }
 
@@ -230,12 +236,16 @@ img {
 
  @media screen and (max-width:480px){
     .container{
-        width: 480px;
-        margin: 0 auto;
+        width: 470px;
+    }
+
+    .why-us{
+        width: 100%;
     }
 
     .col .col-left , .col .col-right{
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
     }
  }
