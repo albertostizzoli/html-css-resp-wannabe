@@ -131,11 +131,15 @@ img {
  /* MEDIA QUERY SEZIONE 1 */
 
  @media screen and (max-width:768px){
+    .lessons{
+        width: 100%;
+    }
+
     .row{
         display: flex;
     }
     .card{
-        justify-content: center;
+        justify-content: flex-start;
         font-size: 20px;
     }
 
@@ -153,6 +157,11 @@ img {
  }
 
  @media screen and (max-width:480px){
+    .lessons{
+        width: 100%;
+    }
+
+
     h2{
         display: flex;
         justify-content: space-between;
@@ -174,4 +183,54 @@ img {
     }
  }
 
- 
+ /* MEDIA QUERY SEZIONE 2 */
+
+ @media screen and (max-width:768px){
+    .steps{
+        width: 100%;
+    }
+
+    .steps{
+        display: flex;
+        justify-content: center;
+
+    }
+ }
+
+ @media screen and (max-width:480px){
+    .steps{
+        width: 100%;
+    }
+
+    .steps{
+        display: flex;
+        flex-direction: column;
+    }
+
+ }
+
+ /* MEDIA QUERY SEZIONE 3 */
+
+ @media screen and (max-width:768px){
+    .why-us{
+        width: 100%;
+    }
+
+    .col .col-left , .col .col-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+
+ @media screen and (max-width:480px){
+    .why-us{
+        width: 100%;
+    }
+
+    .col .col-left , .col .col-right{
+        display: flex;
+        flex-direction: column;
+    }
+ }
