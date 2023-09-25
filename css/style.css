@@ -159,31 +159,12 @@ img {
 
  @media screen and (max-width:480px){
     .container{
-        width: 470px;
-    }
-
-    .lessons{
-        width: 100%;
-    }
-
-    h2{
-        display: flex;
-        justify-content: space-between;
-        margin-left: 60px;
-    }
-    .row{
+        width: 480px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .col{
-        padding-top: 60px;
-    }
 
-    .card{
-        text-align: center;
-        margin-right: 100px;
-    }
  }
 
  /* MEDIA QUERY SEZIONE 2 */
@@ -203,17 +184,10 @@ img {
 
  @media screen and (max-width:480px){
     .container{
-        width: 470px;
-    }
-
-    .steps{
-        width: 100%;
-    }
-
-    .steps{
+        width: 480px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
  }
@@ -226,7 +200,7 @@ img {
         margin: 0 auto;
     }
 
-    .col .col-left , .col .col-right{
+    .col .col-left, .col .col-right{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -236,16 +210,17 @@ img {
 
  @media screen and (max-width:480px){
     .container{
-        width: 470px;
+        width: 480px;
+    }
+
+    .col .col-left, .col .col-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .why-us{
-        width: 100%;
+        background-color: black;
     }
 
-    .col .col-left , .col .col-right{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
  }
